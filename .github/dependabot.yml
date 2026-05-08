@@ -3,6 +3,7 @@ version: 2
 registries:
   private-demo:
     type: cargo-registry
+    registry: "private-demo"
     url: https://dependabot-authenticated-registry-demo.swedencentral.cloudapp.azure.com/index/
     token: ${{secrets.PRIVATE_CARGO_REGISTRY_TOKEN}}
 
