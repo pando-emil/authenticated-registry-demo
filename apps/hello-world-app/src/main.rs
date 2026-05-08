@@ -1,6 +1,7 @@
 use hello_world_lib::greet;
 
-fn main() {
+#[tokio::main]
+async fn main() {
     let message = greet("authenticated registry demo");
     println!("{message}");
 }
