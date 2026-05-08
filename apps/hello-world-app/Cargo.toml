@@ -1,0 +1,7 @@
+[package]
+name = "hello-world-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hello-world-lib = { version = "0.1.0", registry = "private-demo" }

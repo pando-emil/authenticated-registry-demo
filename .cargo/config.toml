@@ -1,0 +1,2 @@
+[registries.private-demo]
+index = "sparse+https://dependabot-authenticated-registry-demo.swedencentral.cloudapp.azure.com/index/"

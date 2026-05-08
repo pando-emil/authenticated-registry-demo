@@ -1,0 +1,5 @@
+{
+  "dl": "{{DL_URL}}",
+  "api": "{{API_URL}}",
+  "auth-required": true
+}

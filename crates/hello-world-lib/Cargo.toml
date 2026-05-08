@@ -1,0 +1,12 @@
+[package]
+name = "hello-world-lib"
+version = "0.1.0"
+edition = "2021"
+description = "A tiny demo crate for a private cargo registry"
+license = "MIT"
+repository = "https://dependabot-authenticated-registry-demo.swedencentral.cloudapp.azure.com"
+publish = ["private-demo"]
+
+[lib]
+name = "hello_world_lib"
+path = "src/lib.rs"

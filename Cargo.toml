@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "crates/hello-world-lib",
+  "apps/hello-world-app",
+]
+resolver = "2"
